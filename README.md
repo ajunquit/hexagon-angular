@@ -1,5 +1,5 @@
 # Hexagon Angular Template
-- Angular 20
+- Angular 20.1.6
 - Tailwind v4
 - Ng Icons (bootstrap & heroicons)
 
