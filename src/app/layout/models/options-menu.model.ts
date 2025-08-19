@@ -5,4 +5,5 @@ export interface OptionsMenu {
   items: OptionMenu;
   customers: OptionMenu;
   orders: OptionMenu;
+  charts: OptionMenu;
 }

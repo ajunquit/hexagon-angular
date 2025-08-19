@@ -21,4 +21,9 @@ export const OPTIONS_MENU_DATA_MOCK: OptionsMenu = {
     icon: 'people',
     route: '/customers',
   },
+  charts: {
+    label: 'Charts',
+    icon: '',
+    route: '/charts',
+  },
 };

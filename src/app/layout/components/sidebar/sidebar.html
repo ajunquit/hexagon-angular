@@ -22,10 +22,19 @@
             {{sidebarConfig.optionsMenu.customers.label}}</a>
         <app-nav-group label="{{ sidebarConfig.optionsMenu.orders.label }}" iconName="bootstrapBoxFill" [id]="'orders'"
             [openByDefault]="false" [items]="[
-        { label: 'All Orders', route: '/orders' },
-        { label: 'New',        route: '/orders/new'  },
-        { label: 'Pending',    route: '/orders/pending' },
-        { label: 'Completed',  route: '/orders/completed' }
-      ]"></app-nav-group>
+            { label: 'All Orders', route: '/orders' },
+            { label: 'New',        route: '/orders/new'  },
+            { label: 'Pending',    route: '/orders/pending' },
+            { label: 'Completed',  route: '/orders/completed' }
+        ]"></app-nav-group>
+        <app-nav-group label="{{ sidebarConfig.optionsMenu.charts.label }}" iconName="bootstrapBarChartLineFill"
+            [id]="'charts'" [openByDefault]="false" [items]="[
+            { label: 'Apex Charts', route: '/charts/apex-charts' },
+            { label: 'E Chart', route: '/charts/e-chart' },
+            { label: 'Chartjs', route: '/charts/chart-js'  },
+            { label: 'Knob Charts', route: '/charts/knob-charts' },
+            { label: 'Sparkline Chart', route: '/charts/sparkline-chart' },
+            { label: 'Re Chart', route: '/charts/re-chart' },
+        ]"></app-nav-group>
     </nav>
 </aside>

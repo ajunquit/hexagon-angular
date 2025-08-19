@@ -5,6 +5,7 @@ import { NgIcon, provideIcons } from '@ng-icons/core';
 import { filter, Subscription } from 'rxjs';
 import { NavItem } from '../../models/nav-item.model';
 import {
+  bootstrapBarChartLineFill,
   bootstrapBoxFill,
   bootstrapChevronDown,
   bootstrapCircleSquare,
@@ -24,6 +25,7 @@ import {
       bootstrapPeopleFill,
       bootstrapCircleSquare,
       bootstrapPieChartFill,
+      bootstrapBarChartLineFill,
     }),
   ],
 })
